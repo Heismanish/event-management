@@ -58,7 +58,7 @@ const SearchBar = ({
           Search
         </button> */}
       </form>
-      <div className="inline-block">
+      <div className="inline-block w-10">
         <input
           type="date"
           id="deadline"
