@@ -13,6 +13,20 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        tangerine: "#F26330",
+        secondary: "#F3F4F6",
+        secondarytext: "#6A7280",
+        primary: "#020817",
+      },
+      gradientColorStops: {
+        background: "rgb(242,99,48)",
+        headgradient:
+          "radial-gradient(circle, rgba(242,99,48,1) 0%, rgba(255,255,255,1) 100%)",
+      },
+      screens: {
+        xs: "380px",
+      },
     },
   },
   plugins: [],
