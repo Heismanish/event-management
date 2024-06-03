@@ -26,7 +26,7 @@ const Event: React.FC<EventProps> = ({ params: { id } }) => {
   }
 
   return (
-    <div className="mx-auto flex flex-col items-start p-4 border-2 w-screen h-screen max-w-[720px]">
+    <div className="mx-auto flex flex-col items-start p-4 w-screen h-screen max-w-[720px]">
       <header className="flex justify-between w-full items-center">
         <h1 className="text-2xl font-bold bg-gradient-to-r from-tangerine to-[#d73901]  text-transparent bg-clip-text  ">
           {event.name}
