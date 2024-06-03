@@ -1,9 +1,4 @@
-import Image from "next/image";
-import Nav from "../Components/nav";
 import EventForm from "@/Components/EventForm";
-import { useListContext } from "@/Components/Context";
-
-// from-gray-600 to-gray-900
 
 export default function Home() {
   return (

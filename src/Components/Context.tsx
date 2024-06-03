@@ -12,17 +12,18 @@ export const ListContext = createContext<ContextValue | undefined>(undefined);
 const Context = ({ children }: { children: ReactNode }) => {
   const [list, setList] = useState<EventType[]>([
     {
-      id: 1,
-      name: "Mogambo",
-      deadline: "2024-07-20",
-      description: "estors and industry experts.224-06-20",
+      id: 123455,
+      name: "Tech Conference 2024",
+      description:
+        "A conference bringing together tech enthusiasts from around the world to discuss the latest trends in technology.",
+      deadline: "2024-07-01",
     },
     {
-      id: 3,
-      name: "Startup Pitch Day",
+      id: 587542,
+      name: "Art Expo 2024",
       description:
-        "An event where startups pitch their ideas to potential investors and industry experts.",
-      deadline: "2024-06-20",
+        "An exhibition showcasing contemporary art from emerging artists.",
+      deadline: "2024-08-15",
     },
   ]);
 

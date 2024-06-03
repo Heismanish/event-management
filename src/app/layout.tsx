@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Nav from "../Components/nav";
+
 import Context from "@/Components/Context";
 
 // If loading a variable font, you don't need to specify the font weight
@@ -23,10 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Context>
-          {/* <Nav></Nav> */}
-          {children}
-        </Context>
+        <Context>{children}</Context>
       </body>
     </html>
   );
